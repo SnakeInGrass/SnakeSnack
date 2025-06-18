@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SnakeSnack</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="gameContainer">
+    <canvas id="gameCanvas" width="1200" height="1000"></canvas>
+    <div id="hud">
+      <span>Score: <span id="score">0</span></span>
+      &nbsp;&nbsp;|&nbsp;&nbsp;
+      <span>Time: <span id="timer">0.0</span>s</span>
+    </div>
+  </div>
+
+  <!-- Game Over message -->
+  <div id="gameOver" class="hidden">
+    <h1>Game Over</h1>
+    <button id="restartButton">Restart</button>
+  </div>
+
+  <script src="game.js"></script>
+</body>
+</html> 
