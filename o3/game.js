@@ -122,7 +122,7 @@ function render() {
   foodItems.forEach((f) => drawCell(f.pos.x, f.pos.y, "#e74c3c"));
 
   // Draw snake
-  snake.forEach((segment, idx) => drawCell(segment.x, segment.y, idx === 0 ? "#2ecc71" : "#27ae60"));
+  snake.forEach((segment, idx) => drawCell(segment.x, segment.y, idx === 0 ? "#3498db" : "#2980b9"));
 }
 
 // Main loop
